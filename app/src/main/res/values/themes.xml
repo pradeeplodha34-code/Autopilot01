@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AutoPilot" parent="Theme.Material3.DayNight.NoActionBar" />
+    <style name="Theme.AutoPilot.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#01173E</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_round</item>
+        <item name="postSplashScreenTheme">@style/Theme.AutoPilot</item>
+    </style>
+</resources>
